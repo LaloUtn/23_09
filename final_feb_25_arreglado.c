@@ -43,7 +43,7 @@ int main()
         case 4:
             return 0; // Salir del programa
         default:
-            p("Ingreso una opcion no valida\n");
+            p("Ingreso una opcion equivocada\n");
             break;
         }
     } while (op < 5);
